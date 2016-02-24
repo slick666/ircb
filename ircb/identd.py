@@ -69,7 +69,7 @@ def runserver(host='0.0.0.0', port=113):
     logging.config.dictConfig(settings.LOGGING_CONF)
     ircb.stores.initialize()
     identd_server = IdentdServer()
-    identd_server.start()
+    identd_server.start(host, port)
 
 if __name__ == '__main__':
     runserver()
