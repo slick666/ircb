@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import asyncio
 import logging
+import logging.config
 
 import ircb.stores
 from ircb.storeclient import NetworkStore
