@@ -4,7 +4,9 @@ import logging
 import logging.config
 
 import ircb.stores
+
 from ircb.storeclient import NetworkStore
+from ircb.config import settings
 
 logger = logging.getLogger('identd')
 
